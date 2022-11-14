@@ -61,7 +61,7 @@ const App = () => {
   }, [])  // 두번째 인자로 배열을 넘기고, 원하는 상태를 넘겨주면 제한을 할 수 있다. 앱이 생성됬을떄만 호출하고싶으면 빈배열
 
   // React.useEffect(() => {
-  //   console.log("존나어렵네 시발");
+  //   console.log("재호출");
   // }, [counter])
 
   async function updateMainCat(value) {
